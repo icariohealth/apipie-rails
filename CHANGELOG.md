@@ -1,6 +1,27 @@
  Changelog
 ===========
 
+[v0.5.17.1](https://github.com/Apipie/apipie-rails/tree/v0.5.17.1) (2020-02-06)
+--------
+
+[Full Changelog](https://github.com/Apipie/apipie-rails/compare/v0.5.17...v0.5.17.1)
+
+- Fix issue that prevents streaming responses ([goronfreeman](https://github.com/goronfreeman/))
+
+[v0.5.17](https://github.com/Apipie/apipie-rails/tree/v0.5.17) (2020-01-20)
+--------
+
+[Full Changelog](https://github.com/Apipie/apipie-rails/compare/v0.5.16...v0.5.17)
+
+- Allows update metadata for methods [\#667](https://github.com/Apipie/apipie-rails/pull/667) ([speckins](https://github.com/speckins))
+
+[v0.5.16](https://github.com/Apipie/apipie-rails/tree/v0.5.16) (2019-05-22)
+--------
+
+[Full Changelog](https://github.com/Apipie/apipie-rails/compare/v0.5.15...v0.5.16)
+
+- Load file directly instead of using Rails constant [\#665](https://github.com/Apipie/apipie-rails/pull/665) ([speckins](https://github.com/speckins))
+
 [v0.5.15](https://github.com/Apipie/apipie-rails/tree/v0.5.15) (2019-01-03)
 --------
 [Full Changelog](https://github.com/Apipie/apipie-rails/compare/v0.5.14...v0.5.15)
@@ -201,7 +222,7 @@ v0.3.2
 v0.3.1
 ------
 
-* Support for ``api!`` keyword in concerns 
+* Support for ``api!`` keyword in concerns
   [#322](https://github.com/Apipie/apipie-rails/pull/322) [@iNecas][]
 * More explicit ordering of the static dispatcher middleware
   [#315](https://github.com/Apipie/apipie-rails/pull/315) [@iNecas][]
